@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>
+			News Portal
+		</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+		<!-- jQuery library -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<!-- Latest compiled JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+	</head>
+	<body>
+		<div class="row">
+			<div class="col-xs-12 col-sm-9">
+				<h1 class="white">
+					All your resources at one place
+				</h1>
+				
+			</div>
+		</div>
+
+		<br/><br/>
+		<div>
+			<div id="search">
+				<div class="row">
+					<div class="col-xs-6">
+						<h3 class="white"><b>Category</b></h3>
+					</div>
+					<div class="col-xs-6" style="text-align:left;padding-top:2em;">
+						<select defautvalue="business" id="category">
+			                <option value="business">Business</option>
+			                <option value="entertainment">Entertainment</option>
+			                <option value="general">General</option>
+			                <option value="health">Health</option>
+			                <option value="science">Science</option>
+			                <option value="sports">Sports</option>
+			                <option value="technology">Technology</option>
+			            </select>
+			        </div>
+		        </div>
+	            <div class="row">
+	            	<div class="col-xs-6">
+	            		<h3 class="white"><b>Search</b></h3>
+	            	</div>
+	            	<div class="col-xs-6" style="text-align:left;padding-top:2em;">
+	            		<input type="text" placeholder="Optional" id="query" />
+	            	</div>
+	            </div>
+				
+				<div class="row">
+					<span id="alt-text"></span>
+				</div>
+
+				<div class="row">
+					<div class="col-xs-6">
+			            <button id="submit" class="white">
+			                Enlighten me!
+			            </button>
+			        </div>
+		        </div>
+		    </div>
+			
+			<div class="row">
+		        <div class="col-xs-12 col-md-9">
+		        	<ul id="content" class="white">
+		        	</ul>
+		        </div>
+		    </div>
+
+		</div>
+
+
+		<script type="text/javascript" src="script.js"></script>
+	</body>
+</html>
+		

@@ -1,0 +1,38 @@
+body {
+	text-align: center;
+	background-image: url('bg6.jpg');
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.row {
+	padding: 10px 0;
+}
+
+#search {
+	background-color: #00000088;
+}
+
+#content {
+	text-align: left;
+	padding: 0 10%;
+	list-style-type: none;
+}
+
+#content li {
+	padding: 10px 10px;
+	margin: 15px 0;
+	box-shadow: 0 4px 8px #000000, inset 0 4px 8px rgba(0,0,0,0.4);
+
+}
+
+#submit {
+	background-color: transparent;
+	border-style: solid;
+    padding: 6px 9px;
+    border-radius: 12px;
+}
+
+.white {
+	color: #ffffff;
+}
