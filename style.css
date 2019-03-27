@@ -33,6 +33,14 @@ body {
     border-radius: 12px;
 }
 
+#category {
+	padding: 10px 10px 5px;
+}
+
+#query {
+	padding: 10px 10px 5px;
+}
+
 .white {
 	color: #ffffff;
 }
