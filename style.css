@@ -52,19 +52,18 @@ body {
 #category {
 	background-color: transparent;
 	padding: 10px 10px 5px;
+	border: 1px solid #ffffff;
 }
 
 #query {
 	background-color: transparent;
 	padding: 10px 10px 5px;
+	border: 1px solid;
 }
 
-#category {
-	padding: 10px 10px 5px;
-}
+#query::placeholder {
+	color: #ffffff;
 
-#query {
-	padding: 10px 10px 5px;
 }
 
 .white {
