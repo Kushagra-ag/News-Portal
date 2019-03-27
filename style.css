@@ -3,6 +3,14 @@ body {
 	background-image: url('bg6.jpg');
 	background-size: cover;
 	background-attachment: fixed;
+	color: #ffffff;
+}
+
+.bg {
+	background-image: url('bg6.jpg');
+	background-size: cover;
+	background-attachment: fixed;
+	position: fixed;
 }
 
 .row {
@@ -22,7 +30,8 @@ body {
 #content li {
 	padding: 10px 10px;
 	margin: 15px 0;
-	box-shadow: 0 4px 8px #000000, inset 0 4px 8px rgba(0,0,0,0.4);
+	box-shadow: 0 4px 8px #000000;
+	background-color: rgba(0,0,0,0.6);
 
 }
 
@@ -31,6 +40,23 @@ body {
 	border-style: solid;
     padding: 6px 9px;
     border-radius: 12px;
+    color: #ffffff;
+    transition: background-color 1s, color 1s;
+}
+
+#submit:hover {
+	background-color: rgb(255,255,255);
+	color: #000;
+}
+
+#category {
+	background-color: transparent;
+	padding: 10px 10px 5px;
+}
+
+#query {
+	background-color: transparent;
+	padding: 10px 10px 5px;
 }
 
 #category {
