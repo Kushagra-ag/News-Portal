@@ -49,7 +49,7 @@ window.onload = () => {
                             <h3>${article.title}</h3>
                             
                             <p>${article.content}</p>
-                            <span>Read full article <b><a href=${article.url}>here</a></b></span>
+                            <span>Read full article <a href=${article.url}>here</a></span>
                             <p><strong>Source</strong> - ${article.source.name}</p>
 
                         </li>`)
